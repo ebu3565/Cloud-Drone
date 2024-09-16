@@ -16,3 +16,7 @@ const open = document.querySelector('.container');
 		close.addEventListener('click', () => {
 			tl.reverse();
 		});
+
+    document.querySelector('.cloudLogo').addEventListener('click', function() {
+      alert('Cloud Logo clicked!');
+  });
