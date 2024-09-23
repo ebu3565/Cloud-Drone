@@ -252,6 +252,7 @@ nav .close:hover div::after{
 	flex-direction: column;
 	text-align: center;
 	margin: 20px 10px ;
+	margin-top: 115px;
 
 }
 .heading h1{
