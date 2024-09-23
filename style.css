@@ -267,7 +267,7 @@ nav .close:hover div::after{
 	height: 4px;
 	display: flex;
 	margin: 0 auto;
-	background-color: #490909;
+	background-color: #1b2b85;
 }
 .heading p{
 	font-size: 18px;
@@ -297,9 +297,11 @@ nav .close:hover div::after{
 	height: auto;
 	display: block;
 	transition: 0.5s ease;
+	border-radius: 75px;
 }
 .about-image:hover img{
 	transform: scale(1.2);
+	border-radius: 80px;
 }
 .about-content{
 	flex: 1;
@@ -317,7 +319,7 @@ nav .close:hover div::after{
 .about-content .read-more{
 	display: inline-block;
 	color: #fff;
-	background-color: #1b4909;
+	background-color: #1b2b85;
 padding: 10px 20px;
 	font-size: 19px;
 	text-decoration: none;
@@ -326,7 +328,7 @@ padding: 10px 20px;
 	transform: 0.3s ease;
 }
 .about-content .read-more:hover{
-	background-color: #3e8341;
+	background-color: #3a4371;
 }
 @media screen and (max-width: 768px){
 	.heading{
@@ -358,3 +360,6 @@ padding: 10px 20px;
 		font-size: 16px;
 	}
 }
+/* footer section */
+/* .container1{
+	margin-top: 2000px;} */
