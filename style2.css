@@ -149,3 +149,213 @@ body {
   color: var(--orange-color);
   font-size: 1.6rem;
 }
+/* extra nav */
+.container{
+	cursor: pointer;
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	width: 30px;
+	height: 20px;
+}
+
+.bars{
+	width: 30px;
+	height: 4px;
+	background: #000;
+}
+
+.bars::before,
+.bars::after{
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 4px;
+	background: #000;
+}
+
+.bars::before{
+	margin-top: 9px;
+}
+
+.bars::after{
+	margin-top: 18px;
+}
+
+nav{
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	right: -200vw;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li{
+	margin: 50px 0;
+}
+
+nav ul li a{
+	color: #fafafa;
+	font-size: 2em;
+	text-decoration: none;
+	font-weight: 500;
+	position: relative;
+	opacity: 0;
+	pointer-events: none;
+}
+
+nav ul li a:after{
+	content: '';
+	width: 100%;
+	position: absolute;
+	height: 3px;
+	border-radius: 5px;
+	background: #fff;
+	bottom: -10px;
+	left: 0;
+	transform-origin: left;
+	transition: transform .5s ease;
+	transform: scaleX(0);
+}
+
+
+nav ul li a:hover:after{
+	transform: scaleX(1);
+}
+
+nav .close {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 6%;
+	right: 5%;
+	cursor: pointer;
+	opacity: 0;
+	pointer-events: none;
+}
+
+nav h2{
+	position: absolute;
+	top:5%;
+	left: 5%;
+	opacity: 0;
+	pointer-events: none;
+	color: #fff;
+	font-size: 2em;
+}
+
+nav .close div::before,
+nav .close div::after{
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 4px;
+	background: #fff;
+	transition: background .5s ease;
+}
+nav .close div::before{
+	transform: rotate(-45deg);
+}
+
+nav .close div::after{
+	transform: rotate(45deg);
+}
+
+nav .close:hover div::before,
+nav .close:hover div::after{
+	background: rgb(209, 3, 3);
+}
+
+@media (max-width: 992px){
+  h1{
+    font-size: 25px;
+  }
+}
+
+
+
+
+	/* call for drone  */
+  .findme_text {
+    text-align: center;
+    justify-content: center;
+    font-size: 55px;
+    margin-top: -255px;
+    margin-left: 10px;
+}	
+
+/* Search Bar */
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #1b2b85;
+    border-right: none;
+    padding: 5px;
+    height: 60px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: #00B4CC;
+}
+
+.searchButton {
+    width: 55px;
+    height: 60px;
+    border: 1px solid #1b2b85;
+    background: #1b2b85;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+	
+}
+
+.findme a{
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 25px;
+  color: #1b2b85;
+  text-decoration: none;
+  border: 2px solid #1b2b85;
+  padding: 7px 20px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+
+.findme a:hover {
+    background-color: #1b2b85;
+    color: #fff;
+}
+
+.or{
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+/* pop-up allow now */
