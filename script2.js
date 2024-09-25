@@ -43,3 +43,5 @@ let getWeather = () => {
 };
 search.addEventListener("click", getWeather);
 window.addEventListener("load", getWeather);
+
+//for pop up allow
