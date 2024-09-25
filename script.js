@@ -20,3 +20,5 @@ const open = document.querySelector('.container');
     document.querySelector('.cloudLogo').addEventListener('click', function() {
       alert('Cloud Logo clicked!');
   });
+
+
