@@ -1,0 +1,40 @@
+Drone delivery for flood relief is a highly effective solution, especially when traditional transportation is hindered by damaged or inaccessible roads. 
+Drones can quickly navigate flooded areas, providing essential supplies like food and medicine to those in need. 
+They are capable of reaching isolated regions cut off by floodwaters, ensuring that aid is delivered to the hardest-hit communities.
+
+The rapid response capability of drones allows for the quick delivery of emergency supplies, minimizing suffering and saving lives by providing timely assistance. 
+Additionally, drones can deliver supplies directly to specific locations, reducing delays and ensuring the right people receive aid. 
+Their use also reduces the risk for rescuers, as drones eliminate the need for aid workers to enter dangerous areas, thus lowering the risk to human lives.
+
+Furthermore, drones can be equipped with cameras and sensors to provide real-time assessments of the situation, 
+allowing for better-coordinated relief efforts. In summary, drones enhance the speed, safety, and effectiveness of flood relief operations,
+ensuring that critical supplies like food and medicine are delivered swiftly to those most affected.
+
+
+~Team Details~
+Team Leader : Motaleb Hossain Emon (GIS Analyst)
+Developer & Video Editior : Md Ebrahim 
+UI/UIX Designer : Reduanul Karim Abid 
+Researcher : Sharmin Ema 
+
+We are from University of Information Technology and Sciences(UITS) Cse_B50.
+
+
+Tools we have used:
+QGIS Map,VS Code,Capcut
+
+Nasa dataset used for map analysis (Earth data):
+Socioeconomic Data and Applications Center(sedac)
+
+Video courtesy:
+1)Nasa Intro(00:00-00:06): 
+https://www.youtube.com/watch?v=Gj9aNi6Dr_k
+
+2)Earth Intro(00:06-00:12): 
+https://www.youtube.com/watch?v=Gj9aNi6Dr_k
+
+3)Impact(00:12-00:55):
+https://www.youtube.com/watch?v=iUL5N8sdcTA
+
+4)Background Music:
+https://www.youtube.com/watch?v=cIcgpKvh-r4&t=1s
